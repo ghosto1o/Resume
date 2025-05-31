@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <a href="#" class="logo">MOO</a>
+
+        <div id="menu-icon" class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="main-nav">
+            <a href="#home-section" class="active"> Home</a>
+            <a href="#services-section">Services</a>
+            <a href="#skills-section">Skills</a>
+            <a href="#education-section">Education</a>
+            <a href="#experience-section">Experience</a>
+            <a href="#contact-section">Contact</a>
+        </nav>
+    </header>
+
+    <script src="script.js"></script>
+
+    <section class="home-section" id="home-section">
+        <div class="home-image-container">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Phatthanasak</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>สวัสดีครับ ผมเป็นผู้มีความกระตือรือร้นในการเรียนรู้และพัฒนาทักษะด้านเทคโนโลยี มีประสบการณ์เล็กน้อยในการสร้างเว็บไซต์ด้วย HTML และ CSS และมีความสนใจอย่างยิ่งในการสร้างสรรค์สิ่งใหม่ๆ เพื่อแก้ไขปัญหาต่างๆ.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook fa-beat" style="color: #0091ff;"></i>
+                <a href="#"><i class="fa-brands fa-github fa-fade" style="color: gray;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-fade" style="color:#ec0075;"></i></a>
+            </div>
+            <a href="#" class="btn-primary">Hire me</a>
+        </div>
+    </section>
+
+    <section class="services-section" id="services-section">
+        <h2 class="section-heading">Services</h2>
+        <div class="services-grid container">
+            <div class="service-card">
+                <h3>Web Design</h3>
+                <p>สร้างเว็บไซต์ที่สวยงามและใช้งานง่ายด้วยดีไซน์ที่ทันสมัยและตอบสนองทุกอุปกรณ์</p>
+            </div>
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>พัฒนาเว็บไซต์และเว็บแอปพลิเคชันที่มีประสิทธิภาพและฟังก์ชันการทำงานที่ครบครัน</p>
+            </div>
+            <div class="service-card">
+                <h3>UI/UX Design</h3>
+                <p>ออกแบบประสบการณ์ผู้ใช้ที่น่าประทับใจและอินเทอร์เฟซที่ใช้งานง่าย</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills-section">
+        <h2 class="section-heading">Skills</h2>
+        <div class="skills-grid container">
+            <div class="skill-category-card">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="skill-category-card">
+                <h3>Frameworks & Libraries</h3>
+                <ul>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                </ul>
+            </div>
+            <div class="skill-category-card">
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>Git & GitHub</li>
+                    <li>VS Code</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="education-section" id="education-section">
+        <h2 class="section-heading">Education</h2>
+        <div class="container">
+            <div class="education-item">
+                <h3>ปริญญาตรี เทคโนโลยีสารสนเทศ</h3>
+                <p>มหาวิทยาลัยมหาสารคาม | 2561 - 2563</p>
+                <p>เกรดเฉลี่ย: 2.93</p>
+            </div>
+            <div class="education-item">
+                <h3>มัธยมศึกษาตอนปลาย สายวิทยาศาสตร์ - คณิตศาสตร์</h3>
+                <p>โรงเรียนขอนแก่นวิทยายน | 25XX - 25YY</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience-section" id="experience-section">
+        <h2 class="section-heading">Experience</h2>
+        <div class="container">
+            <div class="experience-item">
+                <h3>IT Support</h3>
+                <p>องค์กร : วิทยาลัยการอาชีพบ้านไผ่</p>
+                <p>กรกฎาคม 2563 - พฤษจิกายน 2563</p>
+                <ul>
+                    <li>แก้ไขข้อบกพร่องและปรับปรุงประสิทธิภาพระบบอินเตอร์เน็ตภายในองค์กร</li>
+                    <li>แก้ไขข้อบกพร่อและซ่อมบำรุงระบบคอมพิวเตอร์ภายในองค์กร</li>
+                    <li>ให้คำแนะนำและสนับสนุนผู้ใช้ในการใช้งานเทคโนโลยีสารสนเทศ</li>
+                    <li>ติดตั้งและกำหนดค่าซอฟต์แวร์ที่จำเป็นสำหรับการทำงาน</li>   
+                
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Freelance Web Designer</h3>
+                <p>โปรเจกต์ส่วนตัว | 2563 - ปัจจุบัน</p>
+                <ul>
+                    <li>ออกแบบและพัฒนาเว็บไซต์ให้กับลูกค้าหลากหลายประเภท</li>
+                    <li>ทำงานใกล้ชิดกับลูกค้าเพื่อตอบสนองความต้องการและข้อกำหนด</li>
+                    <li>ใช้ HTML, CSS และ JavaScript ในการสร้างเว็บไซต์ที่ตอบสนองและใช้งานง่าย</li>
+                    <li>ปรับปรุงประสิทธิภาพเว็บไซต์และเพิ่มประสบการณ์ผู้ใช้</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact-section">
+        <h2 class="section-heading">Contact</h2>
+        <div class="contact-info container">
+            <p><i class="fas fa-envelope"></i> อีเมล: hibari.pud@gmail.com</p>
+            <p><i class="fas fa-phone"></i> โทรศัพท์: +66 92 382 1000</p>
+            <p><i class="fas fa-map-marker-alt"></i> ที่อยู่: ขอนแก่น, ประเทศไทย</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <form class="contact-form container">
+            <input type="text" placeholder="ชื่อของคุณ">
+            <input type="email" placeholder="อีเมลของคุณ">
+            <textarea placeholder="ข้อความของคุณ"></textarea>
+            <button type="submit" class="btn-primary">ส่งข้อความ</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
